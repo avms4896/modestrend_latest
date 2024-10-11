@@ -1116,16 +1116,15 @@ ul.nav-menu>li>a:hover {
   font-size: 13px;
   color: rgba(0, 16, 23, 1);
 }
- .product-details .regular-price{
+.product-details .regular-price {
   font-size: 18px;
   text-decoration: line-through;
+  padding: 0 5px;
 }
 .product-details .regular-price:first-child {
   margin-right: 0;
 }
-.product-details span:first-child {
-  margin-right: 10px;
-}
+
 
 .product-details .options ul {
   margin: 0px;
@@ -3793,7 +3792,7 @@ display: flex;
 
 .order-content .price-details span.sale-price {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 48px;
   color: #001017;
   margin: 0px 5px;
@@ -3801,7 +3800,7 @@ display: flex;
 
 .order-content .price-details span.discount-value {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 28px;
   color: #CA2929;
 }
@@ -10239,4 +10238,7 @@ button.js-clear-filter:hover span{
 .social-carousel::-webkit-scrollbar{
   display: none;
 
+}
+.main-content.product-details {
+  padding: 30px;
 }
