@@ -7982,7 +7982,8 @@ li.profile:hover .profile-container{
   width: 45%;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
   animation: slide-down 0.4s ease-out;
-  background-color: #000000;
+  /* background-color: #000000; */
+  background-color: rgb(81 78 78 / 91%);
 }
 .modal-overlay {
   position: fixed;
@@ -7995,6 +7996,13 @@ li.profile:hover .profile-container{
   justify-content: center;
   align-items: center;
   z-index: 1000;
+}
+.StripeModal-overlay .modal-content form.payment-form .form-field select {
+  width: 100%;
+  max-width: 100%;
+  background: transparent url(../images/select-arrow.svg) no-repeat 95% 20px !important;
+  appearance: none;
+  background-size: 13px 13px !important; /* Adjust size of the image (width x height) */
 }
 
 .video-frame .modal-overlay {
@@ -10256,4 +10264,20 @@ form.payment-form select {
 }
 form.payment-form input::placeholder {
   color: #d3d3d3;
+}
+
+.custom-select {
+  color: #000000; /* Default text color (black) */
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+/* Style the first option (e.g., "Select Country") */
+.custom-select option.first-option {
+  color: #D3D3D3; /* Light grey for the first option */
+}
+
+/* Style all other options */
+.custom-select option.other-options {
+  color: #000000; /* Black for other options */
 }
