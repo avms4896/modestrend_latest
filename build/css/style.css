@@ -10242,3 +10242,18 @@ button.js-clear-filter:hover span{
 .main-content.product-details {
   padding: 30px;
 }
+
+form.payment-form select {
+  margin: 0px;
+  padding: 20px 20px;
+  background: none;
+  border: 0px;
+  outline: none;
+  border-bottom: 1px solid #b1b1b1;
+  border-bottom: 1px solid #b1b1b1;
+  width: 100%;
+  color: #d3d3d3;
+}
+form.payment-form input::placeholder {
+  color: #d3d3d3;
+}
