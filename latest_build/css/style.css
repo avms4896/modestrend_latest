@@ -3405,9 +3405,9 @@ ul#tabs-nav li.active {
 }
 
 .breadcrumb ul li {
-  font-size: 14px;
+  font-size: 11px;
   line-height: 24px;
-  opacity: 0.4;
+  /* opacity: 0.4; */
 }
 
 .breadcrumb ul li a {
