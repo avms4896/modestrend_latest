@@ -1799,7 +1799,7 @@ div#order ul.order-menu li a {
   padding: 16px;
   margin-bottom: 15px;
   justify-content: space-between;
-  min-height: 65px;
+  min-height: 62px;
   font-size: 14px;
   color: #000;
   display: flex;
@@ -2192,7 +2192,7 @@ ul#mens.nav-menu {
   text-decoration: none;
   color: #001017;
   float: right;
-  margin: 10px 0px 30px;
+  margin: 10px 0px 10px;
   opacity: 0.5;
 }
 
@@ -2218,6 +2218,7 @@ ul#mens.nav-menu {
   text-transform: capitalize;
   cursor: pointer;
   transition: ease-in-all 0.4s;
+  margin-top: 20px;
 }
 
 #tabs-content form .input-submit input[type="submit"]:hover {
