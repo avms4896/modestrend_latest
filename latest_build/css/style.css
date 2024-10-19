@@ -1120,7 +1120,6 @@ ul.nav-menu>li.active>a:before {
 .product-details .regular-price {
   font-size: 18px;
   text-decoration: line-through;
-  padding: 0 5px;
 }
 .product-details .regular-price:first-child {
   margin-right: 0;
