@@ -11164,6 +11164,14 @@ footer ul li {
   }
 
 }
-
-
+.price-input {
+  padding: 8px;
+  border: .0625rem solid #e4e4e4;
+  font-size: 12px;
+  color: #000000;
+}
+.price-input input[type=number] ,.price-input input[type=number]:focus-visible {
+  border: none;
+  outline: none;
+}
 /*20-10-2024 end*/
