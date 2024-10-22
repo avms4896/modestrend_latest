@@ -4345,7 +4345,7 @@ justify-content: space-between;
   opacity: 0.7;
   min-height: 48px;
 }
-.container.coupons p:last-of-type{
+/* .container.coupons p:last-of-type{
   color: #222222 !important;
   opacity: 0.7;
   min-height: 48px;
@@ -4353,13 +4353,13 @@ justify-content: space-between;
   padding-top: 30px;
   margin-top: 30px;
   margin-bottom: 20px;
-}
+} */
 .container.coupons ul{
   display: flex;
   flex-wrap: wrap;
 }
-.container.coupons ul li{
-  width: 30%;
+.coupons ul li .apply button:hover {
+  color: #fff;
 }
 .coupons ul li .expired {
   display: flex;
@@ -6626,6 +6626,7 @@ table.sitemap tr td a:hover {
 
 .banner-content ul.links li:last-child {
   max-width: 204px;
+  max-height: 44px;
 }
 
 .banner-content ul.social {
@@ -7273,7 +7274,7 @@ ul#tabs-nav li.active a {
   margin: 20px 0px; */
 /* border-top: 1px solid rgba(0, 16, 23, 0.1); */
     /* border-bottom: 1px solid rgba(0, 16, 23, 0.1); */
-    margin: 0 0 24px 0;
+    /* margin: 0 0 24px 0; */
 }
 .container.order-details-pg .items-details.ord-details{
   border: 0px;
@@ -7613,7 +7614,7 @@ input[type="search"]::-webkit-search-cancel-button {
     height: 50px;
     color: #fff;
     text-decoration: none;
-    margin-top: 40px;
+    margin-top: 10px;
     font-family: "Poppins", sans-serif !important;
     line-height: 34px;
     font-weight: 400;
@@ -7642,7 +7643,24 @@ section.latest .item .img-box:before {
     font-weight: normal;
 }
 
-.apply button,
+
+.apply button, .checkout button {
+  /* width: 58%; */
+  display: inline-block;
+  background: transparent;
+  color: #038DCE;
+  text-decoration: none;
+  line-height: 24px;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  padding: 5px 5px;
+  border: 0px;
+  outline: none;
+  transition: 0.3s ease-in-out;
+}
+
+/* .apply button,
 .checkout button {
   width: 58%;
   display: inline-block;
@@ -7657,13 +7675,16 @@ section.latest .item .img-box:before {
   border: 0px;
   outline: none;
   transition: 0.3s ease-in-out;
-}
+} */
 
 .apply button:hover,
 .checkout button:hover {
   background-color: #019CDE;
 }
-
+ .apply div button:hover {
+  color: #fff;
+  background: #00000069;
+}
 .apply div {
   display: flex;
   justify-content: space-between;
@@ -10363,7 +10384,7 @@ footer ul li a {
   text-align: left;
 }
 .ftr-contact {
-  width: 43%;
+  width: 40%;
   float: left;
   padding-left: 0px;
 }
@@ -10411,9 +10432,8 @@ footer ul li a {
   justify-content: space-between;
   gap: 20px;
   flex-direction: column;
-  width: 35%;
+  width: 25%;
   padding: 25px;
-  /* background-color: rgb(0 0 0 / 30%); */
 }
 .banner-content .model-text {
   text-align: center;
@@ -10461,6 +10481,7 @@ footer ul li a {
 .banner-content ul.links li a {
   display: flex;
   width: 100%;
+  height: 44px;
 }
 footer ul li a {
   text-decoration: none;
@@ -10921,7 +10942,7 @@ footer ul li {
   width: 100%;
 }
 .ftr-contact, .test-model {
-  width: 300px;
+  width: 330px;
 }
 }
 
@@ -11150,6 +11171,7 @@ footer ul li {
   .row-footer{
     gap:20px;
   }
+  
 }
 
 
@@ -11173,5 +11195,31 @@ footer ul li {
 .price-input input[type=number] ,.price-input input[type=number]:focus-visible {
   border: none;
   outline: none;
+}
+
+.ord-details .apply {
+  border: 1px solid rgba(0, 16, 23, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  background: #fff;
+}
+
+.ord-details .apply input[type="text"] {
+  border: 0px;
+  /* padding: 11px 10px; */
+  display: inline-block;
+  outline: none;
+}
+.ord-details .apply button {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 8px 10px;
+  text-decoration: none;
+}
+.ord-details .apply .coupon-code-applied span {
+  padding: 8px 10px;
 }
 /*20-10-2024 end*/
