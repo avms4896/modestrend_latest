@@ -10432,7 +10432,7 @@ footer ul li a {
   justify-content: space-between;
   gap: 20px;
   flex-direction: column;
-  width: 25%;
+  /* width: 25%; */
   padding: 25px;
 }
 .banner-content .model-text {
